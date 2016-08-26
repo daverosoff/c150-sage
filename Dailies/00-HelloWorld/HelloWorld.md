@@ -6,7 +6,23 @@ section, <em>Prerequisites</em>, precedes the instructions and lets you assess
 whether you are ready to complete the assignment. You should arrive in class
 each day having completed the prerequisite activities.
 
-### Equipment
+<!-- MarkdownTOC -->
+
+- [Prerequisites](#prereq)
+    - [Equipment](#equip)
+    - [Reading: The Command Line Interface](#reading)
+    - [Sign up for SageMathCloud](#smc-signup)
+- [Programming Activity](#programming)
+    - [Instructions](#programming-instr)
+- [Finish the assignment at home](#at-home)
+
+<!-- /MarkdownTOC -->
+
+
+Prerequisites [prereq]
+-------------
+
+### Equipment [equip]
 
 * If you are going to use your own machine for homework, you need to bring it
   to class every day.
@@ -14,7 +30,7 @@ each day having completed the prerequisite activities.
 * If you need to use the AC adapter, then you <alert>must</alert> bring an
   extension cord.
 
-### Reading: The Command Line Interface
+### Reading: The Command Line Interface [reading]
 
 You are probably used to interacting with your computer through menus and
 windows. These are the main parts of what is called a <em>graphical user
@@ -28,12 +44,12 @@ you will find it is much faster and more convenient. See the CLI reading (in
 the Reading folder in the SMC course) for more details. You can read it now,
 or skim it and refer back to it as necessary.
 
-### Sign up for SageMathCloud
+### Sign up for SageMathCloud [smc-signup]
 
 * You should have an email inviting you to our SageMathCloud course
   (<em>unless you are not enrolled</em>: see Rosoff in that case). Check your
   junk folder if you don't see it. You can follow the links there, or simply
-  visit <a href="https://cloud.sagemath.com/">SageMathCloud</a> and create an
+  visit <a href-"https://cloud.sagemath.com/">SageMathCloud</a> and create an
   account.
 * You must use your <tt>@yotes.collegeofidaho.edu</tt> email address to sign
   up (not Facebook, Google, etc., and not any other email address).
@@ -43,20 +59,20 @@ or skim it and refer back to it as necessary.
   you want, but be careful with deleting. You might not be able to get back a
   deleted file.
 
-Programming Activity
-====================
+Programming Activity [programming]
+--------------------
 
 It's a time-honored tradition for beginning programmers to start with a
 program like this one, that prints a polite greeting to the world. Follow
 these directions to create yours. A computer follows directions more closely
 than anyone, so we have to be very accurate.
 
-### Instructions
+### Instructions [programming-instr]
 
 * Use the New button in SageMathCloud (top left corner) to create a new file
   in this folder (don't worry, the instructions file you are looking at right
   now will stay open in its own tab). Name your new file
-  <code>HelloWorld.cc</code>. <font color="red"><strong>Note: filenames are
+  <code>HelloWorld.c++</code>. <font color-"red"><strong>Note: filenames are
   sensitive to capital letters, punctuation, and should never, ever contain
   spaces.</strong></font>
 * To create your file, click where it says <code>File</code>, by the page
@@ -98,7 +114,7 @@ also where you'll run your new program).
    message that starts with "Welcome to the SageMathCloud Terminal
    Environment". "Terminal" is an interactive command line interface,
    sometimes called a "console".
-3. Enter the command `g++ HelloWorld.cc -o HelloWorld` and hit Enter. This
+3. Enter the command `g++ HelloWorld.c++ -o HelloWorld` and hit Enter. This
    invokes our C++ *compiler* to translate your source code into machine
    instructions.
 4. If you see an error message (any message is likely to be one, at this
@@ -110,7 +126,29 @@ also where you'll run your new program).
    help.
 8. Congratulations, you have written your first program!
 
-Finish the assignment at home
-=============================
+Finish the assignment at home [at-home]
+-----------------------------
 
-You can see that the `cout` gizmo has something to do with printing text to the screen.
+You can see that the `cout` gizmo has something to do with printing text to
+the screen. You can pass `cout` more than one thing at a time. 
+
+1. Make a copy of your `HelloWorld.c++` file and call it `HelloWorld2.c++`.
+2. Replace the original `cout` statement with this one:
+```
+cout << "Hello, " << "world!" << endl;
+```
+3. Remember to pay attention to the spacing. A big percentage of skill in
+   programming has to do with being able to quickly spot small differences in
+   text: like a missing or extra space.
+4. Add another line right after your `cout` statement like this:
+```
+cout << "My name is " << "Banksy." << endl; // but put your name instead
+```
+5. The text including and after the `//` is a C++ *comment*. Comments are
+   ignored by the compiler `g++` and are essential for documenting your work.
+   You'll write lots of comments later, but don't worry about making them now.
+6. Make sure your `HelloWorld2.c++` file is saved.
+
+When you surround text with quotation marks `"` in a C++ program, the resulting
+gizmo is called a *string*. You have passed strings to `cout` already, but you
+can pass it numbers too---without any quotation marks.
