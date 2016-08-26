@@ -15,6 +15,7 @@ each day having completed the prerequisite activities.
 - [Programming Activity](#programming)
     - [Instructions](#programming-instr)
 - [Finish the assignment at home](#at-home)
+- [Submitting your work](#submitting-your-work)
 
 <!-- /MarkdownTOC -->
 
@@ -149,6 +150,44 @@ cout << "My name is " << "Banksy." << endl; // but put your name instead
    You'll write lots of comments later, but don't worry about making them now.
 6. Make sure your `HelloWorld2.c++` file is saved.
 
-When you surround text with quotation marks `"` in a C++ program, the resulting
-gizmo is called a *string*. You have passed strings to `cout` already, but you
-can pass it numbers too---without any quotation marks.
+When you surround text with quotation marks `"` in a C++ program, the
+resulting gizmo is called a *string*. You have passed strings to `cout`
+already, but you can pass it numbers too---without any quotation marks. Make a
+copy of `HelloWorld.c++` that contains a statement like this. Call the new
+file `HelloWorld3.c++` and see if you can guess what will happen when you
+compile it.
+```
+cout << "I have " << 4 << " kitties!" << endl;
+```
+Was your guess right? Try to see why or why not.
+
+You have probably anticipated that programming is about more than printing
+silly sentences to the screen, although silly messages never really stop being
+entertaining. At its heart, a computer performs *computations*. So now try a
+statement like this one.
+```
+cout << "I have " << 7*13 << " socks!" << endl; // What will happen? Exciting!
+```
+The operations of arithmetic, like `+`, `*`, `-`, are built-in, but fancier math
+functions have to be imported from elsewhere, like caviar or grappa.
+
+1. Change your `HelloWorld3.c++` program so that it prints a message like this,
+but about you.
+```
+Hello, world!
+My name is Dave.
+I will be 13505 days old on my next birthday.
+```
+
+Assume every year has 365 days. Compute the appropriate number inside the program,
+using arithmetic. If you just print the number instead of feeding a math formula
+to `cout`, you will not get any points for this part of the assignment.
+
+Submitting your work
+--------------------
+
+The best thing about SageMathCloud for homework is that you don't have to turn it
+in! When you're done, just relax. I will collect it on the due date, grade it, 
+and return it with comments. So all you need to do is make sure the files I will
+be grading are ready to go by the due date.
+
