@@ -20,9 +20,11 @@ each day having completed the prerequisite activities.
 <!-- /MarkdownTOC -->
 
 
+<a name="prereq"></a>
 Prerequisites [prereq]
 -------------
 
+<a name="equip"></a>
 ### Equipment [equip]
 
 * If you are going to use your own machine for homework, you need to bring it
@@ -31,6 +33,7 @@ Prerequisites [prereq]
 * If you need to use the AC adapter, then you <alert>must</alert> bring an
   extension cord.
 
+<a name="reading"></a>
 ### Reading: The Command Line Interface [reading]
 
 You are probably used to interacting with your computer through menus and
@@ -45,6 +48,7 @@ you will find it is much faster and more convenient. See the CLI reading (in
 the Reading folder in the SMC course) for more details. You can read it now,
 or skim it and refer back to it as necessary.
 
+<a name="smc-signup"></a>
 ### Sign up for SageMathCloud [smc-signup]
 
 * You should have an email inviting you to our SageMathCloud course
@@ -60,6 +64,7 @@ or skim it and refer back to it as necessary.
   you want, but be careful with deleting. You might not be able to get back a
   deleted file.
 
+<a name="programming"></a>
 Programming Activity [programming]
 --------------------
 
@@ -68,6 +73,7 @@ program like this one, that prints a polite greeting to the world. Follow
 these directions to create yours. A computer follows directions more closely
 than anyone, so we have to be very accurate.
 
+<a name="programming-instr"></a>
 ### Instructions [programming-instr]
 
 * Use the New button in SageMathCloud (top left corner) to create a new file
@@ -127,6 +133,7 @@ also where you'll run your new program).
    help.
 8. Congratulations, you have written your first program!
 
+<a name="at-home"></a>
 Finish the assignment at home [at-home]
 -----------------------------
 
@@ -183,6 +190,7 @@ Assume every year has 365 days. Compute the appropriate number inside the progra
 using arithmetic. If you just print the number instead of feeding a math formula
 to `cout`, you will not get any points for this part of the assignment.
 
+<a name="submitting-your-work"></a>
 Submitting your work
 --------------------
 
