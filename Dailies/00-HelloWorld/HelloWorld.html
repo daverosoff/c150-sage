@@ -1,0 +1,84 @@
+<h2>Hello, World! (first variation)</h2>
+<p>It's a time-honored tradition for beginning programmers to start with a program like this one, that prints a polite greeting to the world. Follow these directions to create yours. A computer follows directions more closely than anyone, so we have to be very accurate.&nbsp;</p>
+<ul>
+    <li>Use the New button in SageMathCloud (top left corner) to create a new file in this folder (don't worry, the instructions file you are looking at right now will stay open in its own tab). Name your new file <code>HelloWorld.cc</code>. <font color="red"><strong>Note: filenames are sensitive to capital letters, punctuation, and should never, ever contain spaces.</strong></font></li>
+    <li>To create your file, click where it says <code>File</code>, by the page icon.</li>
+    <li>Type the code in the box below into your new file.</li>
+    <li>Professional Tip: </li>
+    
+</ul>
+
+<ul>
+<li>Open a blank file in Sublime Text. Use File...Save As to save the file with the name <code>HelloWorld.cc</code>. For now, it doesn't matter where you put this file. Organization will be important later. Notice that in the lower right-hand corner of the Sublime Text window, the text "C++" appears. The <code>.cpp</code> file extension tells Sublime Text we are editing a C++ source code file.</li>
+<li>Don't use copy/paste yet. You need to practice typing programs by hand.&nbsp;</li>
+<li>Make sure to pay attention to all the spelling, capitalization, punctuation, and spacing/indents.</li>
+<li>Use TAB to indent, not the space bar.</li>
+<li>Pay attention while you type. Sublime Text has some features that may surprise you if you haven't played with it yet.</li>
+</ul>
+<p>Here is the code you should type into Sublime Text:</p>
+<pre><code>#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+    cout &lt;&lt; "Hello, world!" &lt;&lt; endl;
+    return 0;
+}
+</code></pre>
+<p>When you are sure you have entered all the code correctly, including the blank line at the end, save your file. Keep Sublime Text open, just in case you have made a typo. Now it's time to compile your program. To do this, we 
+need to use a shell (an interactive <i>command-line interface</i>) and the
+shell has to be steered to the right location on the disk.</p>
+<ul>
+<li>Open the MinGW Shell (Windows) or a Terminal window (Mac/Linux; on Mac, find the Terminal application in Applications/Utilities). You should see a dollar-sign and a flashing cursor. This is called a&nbsp;<em>prompt</em>.&nbsp;The shell is waiting for your typed instructions.&nbsp;</li>
+<li>We need to navigate the shell to the directory where you saved your HelloWorld.cpp file. This is a little tricky if you are not familiar with file systems. On Windows, the directory location might be something like&nbsp;<code>C:\Users\drosoff\Documents\csc150\HelloWorld.cpp</code>.</li>
+<li>The corresponding navigation command is <code>cd /c/Users/drosoff/Documents/csc150</code>. <i>Pay close attention to the punctuation.</i> There are reasons why it is so strange, but we don't need to go into them now.</li>
+<ul>
+  <li>On a Mac or Linux machine, the directory location will look different, maybe something like <code>/home/Dave/csc150/HelloWorld.cpp</code>.</li>
+  <li>The corresponding navigation command is <code>cd /home/Dave/csc150</code>. Here the punctuation is identical.</li>
+</ul>
+</ul>
+<ul>
+  <li>When you have typed the navigation command and hit Enter, you are hoping to just see another prompt. If you see any message at all, it is probably an error.</li>
+  <li>Type the command <code>ls</code> to see a listing of the files in the directory you navigated to. You should see your HelloWorld.cpp file.</li>
+  <li>If you do, go to the next step.</li>
+  <li>Otherwise, try navigating again, or ask for help if you are stuck.</li>
+</ul>
+<p>When you see a directory listing including your file, you're ready to compile. Use the command <code>g++ -o HelloWorld HelloWorld.cpp</code>.</p>
+<ul>
+  <li>Remember: <i>no news is good news</i>. Did you get an error? Switch back to Sublime Text, check for typos in your program, save, and try again.</li>
+  <li>Check the directory listing again (use <code>ls</code>).</li>
+  <li>Do you see the executable file created by the <code>g++</code> compiler? It's called <code>HelloWorld.exe</code> on Windows and plain
+  <code>HelloWorld</code> on Mac/Linux.</li>
+</ul>
+<p>If you see your file, run it! Type <code>HelloWorld</code> at the shell prompt (you can ignore the <code>.exe</code> suffix) and hit Enter. You should see your polite greeting!</p>
+<div align="center"><i>Congratulations! You have written your first program!</i></div>
+<h2>Hello, World! (second variation)</h2>
+<p>You can pass more than one thing at a time to <code>cout</code>, and it
+doesn't have to be just quoted text (a <i>string</i>, in programmer-speak).
+Return to the text editor and change your code to look like this: </p>
+<ul>
+  <li>Underneath the <code>cout</code> statement (which should be on line 7),
+  add another statement as follows. Remember to pay attention to the punctuation and the spacing.</li>
+  <li><code>cout &lt;&lt; &quot;7 times 13 is &quot; &lt;&lt; 7*13 &lt;&lt; &quot;!&quot; &lt;&lt; endl;</code></li>
+</ul>
+<p>Now use File...Save As to save your modified code with the name <code>HelloWorld2.cpp</code>. Make sure you don't save over anything. Return to the shell window and compile, using a <code>g++</code> command like before (change <i>both</i> filenames!). Ask for help if you get stuck.</p>
+<h2>Hello, World! (third variation)</h2>
+<p>The stream <code>cout</code> has a buddy named <code>cin</code>, who
+can get input from the user. Delete your two <code>cout</code> statements</p>
+and replace them (remember: never copy and paste! type everything in yourself) with:
+<pre><code>cout &lt;&lt; &quot;What is your first name?&quot; &lt;&lt; endl; 
+string myName; 
+cin &gt;&gt; myName; 
+cout &lt;&lt; &quot;Hello, &quot; &lt;&lt; myName &lt;&lt; &quot;!&quot; &lt;&lt; endl;
+</code></pre>
+<p>Use File...Save As to save your modified program with the name <code>HelloWorld3.cpp</code>. Get someone to check your indent/spacing before you compile. Make sure you don't save over anything, and change the filenames
+in your <code>g++</code> command. What happens when you run the third variation? (Answer the question the program asks you.)</p>
+<h2>Submit this workshop</h2>
+<p>When your three variations are done and run properly, use the command-line
+shell to run each of them in turn:</p>
+<pre><code>$ HelloWorld
+$ HelloWorld2
+$ HelloWorld3
+</code></pre>
+<p>Take a screenshot of the shell window that shows these commands and the output. Upload four files: the screenshot and your three <code>.cpp</code> files. You're done!</p>
