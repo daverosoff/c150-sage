@@ -1,6 +1,8 @@
 Hello, World!
 =============
 
+**Due date: Friday, September 2, at 2:00 pm**
+
 Every daily assignment for CSC-150 will look a lot like this one. This
 section, <em>Prerequisites</em>, precedes the instructions and lets you assess
 whether you are ready to complete the assignment. You should arrive in class
@@ -8,24 +10,24 @@ each day having completed the prerequisite activities.
 
 <!-- MarkdownTOC -->
 
-- [Prerequisites](#prereq)
-    - [Equipment](#equip)
-    - [Reading: The Command Line Interface](#reading)
-    - [Sign up for SageMathCloud](#smc-signup)
-- [Programming Activity](#programming)
-    - [Instructions](#programming-instr)
-- [Finish the assignment at home](#at-home)
+- [Prerequisites](#prerequisites)
+    - [Equipment](#equipment)
+    - [Reading: The Command Line Interface](#reading-the-command-line-interface)
+    - [Sign up for SageMathCloud](#sign-up-for-sagemathcloud)
+- [Programming Activity](#programming-activity)
+    - [Instructions](#instructions)
+- [Finish the assignment at home](#finish-the-assignment-at-home)
 - [Submitting your work](#submitting-your-work)
 
 <!-- /MarkdownTOC -->
 
 
-<a name="prereq"></a>
-Prerequisites [prereq]
+<a name="prerequisites"></a>
+Prerequisites
 -------------
 
-<a name="equip"></a>
-### Equipment [equip]
+<a name="equipment"></a>
+### Equipment
 
 * If you are going to use your own machine for homework, you need to bring it
   to class every day.
@@ -33,8 +35,8 @@ Prerequisites [prereq]
 * If you need to use the AC adapter, then you <alert>must</alert> bring an
   extension cord.
 
-<a name="reading"></a>
-### Reading: The Command Line Interface [reading]
+<a name="reading-the-command-line-interface"></a>
+### Reading: The Command Line Interface
 
 You are probably used to interacting with your computer through menus and
 windows. These are the main parts of what is called a <em>graphical user
@@ -48,8 +50,8 @@ you will find it is much faster and more convenient. See the CLI reading (in
 the Reading folder in the SMC course) for more details. You can read it now,
 or skim it and refer back to it as necessary.
 
-<a name="smc-signup"></a>
-### Sign up for SageMathCloud [smc-signup]
+<a name="sign-up-for-sagemathcloud"></a>
+### Sign up for SageMathCloud
 
 * You should have an email inviting you to our SageMathCloud course
   (<em>unless you are not enrolled</em>: see Rosoff in that case). Check your
@@ -64,8 +66,8 @@ or skim it and refer back to it as necessary.
   you want, but be careful with deleting. You might not be able to get back a
   deleted file.
 
-<a name="programming"></a>
-Programming Activity [programming]
+<a name="programming-activity"></a>
+Programming Activity
 --------------------
 
 It's a time-honored tradition for beginning programmers to start with a
@@ -73,13 +75,13 @@ program like this one, that prints a polite greeting to the world. Follow
 these directions to create yours. A computer follows directions more closely
 than anyone, so we have to be very accurate.
 
-<a name="programming-instr"></a>
-### Instructions [programming-instr]
+<a name="instructions"></a>
+### Instructions
 
 * Use the New button in SageMathCloud (top left corner) to create a new file
   in this folder (don't worry, the instructions file you are looking at right
   now will stay open in its own tab). Name your new file
-  <code>HelloWorld.c++</code>. <font color-"red"><strong>Note: filenames are
+  <code>hello_world.c++</code>. <font color-"red"><strong>Note: filenames are
   sensitive to capital letters, punctuation, and should never, ever contain
   spaces.</strong></font>
 * To create your file, click where it says <code>File</code>, by the page
@@ -121,26 +123,30 @@ also where you'll run your new program).
    message that starts with "Welcome to the SageMathCloud Terminal
    Environment". "Terminal" is an interactive command line interface,
    sometimes called a "console".
-3. Enter the command `g++ HelloWorld.c++ -o HelloWorld` and hit Enter. This
+3. Type `ls` (that's a lowercase ell, not a number 1) and hit <kbd>Enter</kbd> to see a
+   list of files.
+4. Type `g++ -o hello_world hello_world.c++` and hit <kbd>Enter</kbd>. This
    invokes our C++ *compiler* to translate your source code into machine
    instructions.
-4. If you see an error message (any message is likely to be one, at this
+5. If you see an error message (any message is likely to be one, at this
    point), inspect your code for errors or typos and try again. If you are
    stuck, raise your hand and get some help.
-5. If you just see another prompt, great! No news is good news from `g++`.
-6. Run your program by typing `./HelloWorld` and hitting Enter.
-7. Did you see the `Hello, world!` message you expected? If not, get some
+6. Run `ls` again and compare. You should see a new file named `hello_world`
+   (no extension).
+7. Run your program by typing `./hello_world` and hitting <kbd>Enter</kbd>.
+8. If you just see another prompt, great! No news is good news from `g++`.
+9. Did you see the `Hello, world!` message you expected? If not, get some
    help.
-8. Congratulations, you have written your first program!
+10. Congratulations, you have written your first program!
 
-<a name="at-home"></a>
-Finish the assignment at home [at-home]
+<a name="finish-the-assignment-at-home"></a>
+Finish the assignment at home
 -----------------------------
 
 You can see that the `cout` gizmo has something to do with printing text to
-the screen. You can pass `cout` more than one thing at a time. 
+the screen. You can pass `cout` more than one thing at a time.
 
-1. Make a copy of your `HelloWorld.c++` file and call it `HelloWorld2.c++`.
+1. Make a copy of your `hello_world.c++` file and call it `hello_world2.c++`.
 2. Replace the original `cout` statement with this one:
 ```
 cout << "Hello, " << "world!" << endl;
@@ -155,13 +161,14 @@ cout << "My name is " << "Banksy." << endl; // but put your name instead
 5. The text including and after the `//` is a C++ *comment*. Comments are
    ignored by the compiler `g++` and are essential for documenting your work.
    You'll write lots of comments later, but don't worry about making them now.
-6. Make sure your `HelloWorld2.c++` file is saved.
+6. Make sure your `hello_world2.c++` file is saved. Compile and run it to check
+   that it's working properly.
 
 When you surround text with quotation marks `"` in a C++ program, the
 resulting gizmo is called a *string*. You have passed strings to `cout`
 already, but you can pass it numbers too---without any quotation marks. Make a
-copy of `HelloWorld.c++` that contains a statement like this. Call the new
-file `HelloWorld3.c++` and see if you can guess what will happen when you
+copy of `hello_world.c++` that contains a statement like this. Call the new
+file `hello_world3.c++` and see if you can guess what will happen when you
 compile it.
 ```
 cout << "I have " << 4 << " kitties!" << endl;
@@ -178,24 +185,40 @@ cout << "I have " << 7*13 << " socks!" << endl; // What will happen? Exciting!
 The operations of arithmetic, like `+`, `*`, `-`, are built-in, but fancier math
 functions have to be imported from elsewhere, like caviar or grappa.
 
-1. Change your `HelloWorld3.c++` program so that it prints a message like this,
-but about you.
+1. Change your `hello_world3.c++` program so that it looks like the source code
+   displayed below. Again, you should type all the code in by hand instead of
+   copy and pasting.
+
 ```
-Hello, world!
-My name is Dave.
-I will be 13505 days old on my next birthday.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Hello, world!" << endl;
+    cout << "I like producing output." << endl;
+    cout << "I also read fish newspapers." << endl;
+    cout << "You could say this is \"nonsense\", but why bother?" << endl;
+    cout << "Welp, bye!" << endl;
+    return 0;
+}
 ```
 
-Assume every year has 365 days. Compute the appropriate number inside the program,
-using arithmetic. If you just print the number instead of feeding a math formula
-to `cout`, you will not get any points for this part of the assignment.
+2. What do you think the `\` characters ("backslashes") do?
+3. Compile and run this program to make sure it's working properly.
 
 <a name="submitting-your-work"></a>
 Submitting your work
 --------------------
 
 The best thing about SageMathCloud for homework is that you don't have to turn it
-in! When you're done, just relax. I will collect it on the due date, grade it, 
+in! When you're done, just relax. I will collect it on the due date, grade it,
 and return it with comments. So all you need to do is make sure the files I will
 be grading are ready to go by the due date.
 
+The files due on Friday, September 2, at 2:00 pm are:
+
+* `hello_world.c++`
+* `hello_world2.c++`
+* `hello_world3.c++`
