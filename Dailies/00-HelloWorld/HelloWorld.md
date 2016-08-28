@@ -78,21 +78,19 @@ than anyone, so we have to be very accurate.
 <a name="instructions"></a>
 ### Instructions
 
-* Use the New button in SageMathCloud (top left corner) to create a new file
-  in this folder (don't worry, the instructions file you are looking at right
-  now will stay open in its own tab). Name your new file
-  <code>hello_world.c++</code>. <font color-"red"><strong>Note: filenames are
-  sensitive to capital letters, punctuation, and should never, ever contain
-  spaces.</strong></font>
-* To create your file, click where it says <code>File</code>, by the page
-  icon.
+* Open your `ComputerScience1` SageMathCloud project and navigate to the
+  folder `Dailies/00-HelloWorld`. Open the file `hello_world.c++`. <font
+  color-"red"><strong>Note: filenames are sensitive to capital letters,
+  punctuation, and should never, ever contain spaces.</strong></font>
+* Don't panic, the file is supposed to be empty. You are about to fill it.
 * Type the code in the box below into your new file. Pay attention to
   punctuation, spelling, and spacing. Do *not* copy and paste. At this point,
   it's important for you to practice typing in code by hand.
 * Professional Tip: always use Tab to indent. (Your editor is configured to
   insert four spaces whenever Tab is pressed.)
 * Finally, pay attention while you type. Code editors behave a little
-  differently from word processors.
+  differently from word processors. You can customize your editor's behavior
+  in your SageMathCloud user settings (gear menu, not wrench).
 
 Here is the code you should type into Sublime Text:
 
