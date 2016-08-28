@@ -46,9 +46,9 @@ interface, you type your requests rather than selecting from a menu. There are
 advantages and disadvantages to this setup. It requires you to remember the
 names of the commands and their options, so it is less "user-friendly" than a
 GUI. However, it is more versatile. Thus, after you get comfortable with it,
-you will find it is much faster and more convenient. See the CLI reading (in
-the Reading folder in the SMC course) for more details. You can read it now,
-or skim it and refer back to it as necessary.
+you will find it is much faster and more convenient. See [the CLI reading in
+the Reading folder in the SMC course](../../Readings/01-CLI/CLI.md) for more
+details. You can read it now, or skim it and refer back to it as necessary.
 
 <a name="sign-up-for-sagemathcloud"></a>
 ### Sign up for SageMathCloud
