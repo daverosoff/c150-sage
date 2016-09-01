@@ -164,7 +164,7 @@ cout << "My name is " << "Banksy." << endl; // but put your name instead
 
 When you surround text with quotation marks `"` in a C++ program, the
 resulting gizmo is called a *string*. You have passed strings to `cout`
-already, but you can pass it numbers too---without any quotation marks. Make a
+already, but you can pass it numbers too—without any quotation marks. Make a
 copy of `hello_world.c++` that contains a statement like this. Call the new
 file `hello_world3.c++` and see if you can guess what will happen when you
 compile it.
