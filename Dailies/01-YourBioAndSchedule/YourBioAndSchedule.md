@@ -148,10 +148,10 @@ Programming Activity
                                                Dave Rosoff Fall 2016 Schedule
         Course No.  Course Name              Days    Time            Location
         ---------------------------------------------------------------------
-        MAT-275     Multivariable Calculus   MTW F   08:00-09:00    Boone 132
-        CSC-150     Computer Science 1       MTW F   10:20-11:20    Boone 104
-        MAT-150     Applied Calculus         MTW F   01:00-02:00    Boone 106
-        MAT-199     Math-Physics Colloquium     R    01:00-02:00    Boone 101
+           MAT-275  Multivariable Calculus   MTW F   08:00-09:00    Boone 132
+           CSC-150  Computer Science 1       MTW F   10:20-11:20    Boone 104
+           MAT-150  Applied Calculus         MTW F   01:00-02:00    Boone 106
+           MAT-199  Math-Physics Colloquium     R    01:00-02:00    Boone 101
 
 <a name="finish-the-assignment-at-home"></a>
 Finish the assignment at home
