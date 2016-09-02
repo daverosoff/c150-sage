@@ -128,8 +128,8 @@ Programming Activity
 <a name="letter-to-myself"></a>
 ### Letter to myself
 
-1. ([Graham Mitchell](http://programmingbydoing.com/a/letter-to-
-   yourself.html)) In the file `letter.c++`, write a program to
+1. ([Graham Mitchell](http://programmingbydoing.com/a/letter-to- yourself.html))
+   In the file `letter.c++`, write a program to
    print an envelope addressed to you. Maybe it has
    a big, fat check in it. We could go out for tacos. And get guac!
    You don't have to use your real address, but
