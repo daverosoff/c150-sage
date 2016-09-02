@@ -99,6 +99,14 @@ Programming Activity
         Name:      Dr. Rosoff
         Age:       36 years old
         Hometown:  Albuquerque, New Mexico
+	What I am looking forward to about CSC-150: This semester I think my
+	more coherent philosophy of CS teaching along with our cloud computing
+	strategy will make for a really good course experience. I'm looking
+	forward to finding out!
+	What I am not looking forward to about CSC-150: There are usually one
+	or two people who get complacent during the first few weeks and check
+	out of what seems like a boring, easy class. They don't often do so
+	well for the rest of the semester.
         Interests: Outside of work, I spend a lot of time reading and thinking
         about math, computer science, and programming. When I'm not doing that
         I enjoy reading novels, cooking, music, video games, and spending time
@@ -123,7 +131,8 @@ Programming Activity
 1. ([Graham Mitchell](http://programmingbydoing.com/a/letter-to-
    yourself.html)) In the file `letter.c++`, write a program to
    print an envelope addressed to you. Maybe it has
-   some fat checks in it. You don't have to use your real address, but
+   a big, fat check in it. We could go out for tacos. And get guac!
+   You don't have to use your real address, but
    you do have to have a 3-line address and a stamp.
 
         +--------------------------------------------------------------------------+
@@ -145,13 +154,15 @@ Programming Activity
 1. Write a program `fall_schedule.c++` that prints your course schedule.
    Here's mine. Yours should line up in a similar way.
 
-                                               Dave Rosoff Fall 2016 Schedule
-        Course No.  Course Name              Days    Time            Location
-        ---------------------------------------------------------------------
-           MAT-275  Multivariable Calculus   MTW F   08:00-09:00    Boone 132
-           CSC-150  Computer Science 1       MTW F   10:20-11:20    Boone 104
-           MAT-150  Applied Calculus         MTW F   01:00-02:00    Boone 106
-           MAT-199  Math-Physics Colloquium     R    01:00-02:00    Boone 101
+                                                   Dave Rosoff Fall 2016 Schedule
+        Course No.  Course Name              Days    Time                Location
+        -------------------------------------------------------------------------
+           MAT-275  Multivariable Calculus   MTW F   08:00-09:00        Boone 132
+           CSC-150  Computer Science 1       MTW F   10:20-11:20        Boone 104
+           MAT-150  Applied Calculus         MTW F   01:00-02:00        Boone 106
+           MAT-199  Math-Physics Colloquium     R    01:00-02:00        Boone 101
+	   XXXXXXX  Faculty meetings            R    11:30-12:30           Varies
+           XXXXXXX  Faculty meetings          T      11:30-12:30    Langroise 204    
 
 <a name="finish-the-assignment-at-home"></a>
 Finish the assignment at home
@@ -170,3 +181,6 @@ grade are:
 * [`my_bio.c++`](#my-bio)
 * [`letter.c++`](#letter-to-myself)
 * [`schedule.c++`](#fall-schedule)
+
+Make sure you put these files in the `ComputerScience1/Dailies/01-YourBioAndSchedule`
+directory on SageMathCloud. If they are anywhere else I won't see them.
