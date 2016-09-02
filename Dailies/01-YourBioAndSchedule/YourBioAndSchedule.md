@@ -99,14 +99,14 @@ Programming Activity
         Name:      Dr. Rosoff
         Age:       36 years old
         Hometown:  Albuquerque, New Mexico
-	What I am looking forward to about CSC-150: This semester I think my
-	more coherent philosophy of CS teaching along with our cloud computing
-	strategy will make for a really good course experience. I'm looking
-	forward to finding out!
-	What I am not looking forward to about CSC-150: There are usually one
-	or two people who get complacent during the first few weeks and check
-	out of what seems like a boring, easy class. They don't often do so
-	well for the rest of the semester.
+        What I am looking forward to about CSC-150: This semester I think my
+        more coherent philosophy of CS teaching along with our cloud computing
+        strategy will make for a really good course experience. I'm looking
+        forward to finding out!
+        What I am not looking forward to about CSC-150: There are usually one
+        or two people who get complacent during the first few weeks and check
+        out of what seems like a boring, easy class. They don't often do so
+        well for the rest of the semester.
         Interests: Outside of work, I spend a lot of time reading and thinking
         about math, computer science, and programming. When I'm not doing that
         I enjoy reading novels, cooking, music, video games, and spending time
@@ -161,7 +161,7 @@ Programming Activity
            CSC-150  Computer Science 1       MTW F   10:20-11:20        Boone 104
            MAT-150  Applied Calculus         MTW F   01:00-02:00        Boone 106
            MAT-199  Math-Physics Colloquium     R    01:00-02:00        Boone 101
-	   XXXXXXX  Faculty meetings            R    11:30-12:30           Varies
+           XXXXXXX  Faculty meetings            R    11:30-12:30           Varies
            XXXXXXX  Faculty meetings          T      11:30-12:30    Langroise 204    
 
 <a name="finish-the-assignment-at-home"></a>
