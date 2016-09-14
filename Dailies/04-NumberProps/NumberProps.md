@@ -47,8 +47,14 @@ Sample 3:
 Your output needs to look ***exactly*** like this. Make sure to proofread your
 code for spelling, spacing, and indentation, and comment it thoroughly.
 
-When you are satisfied with your program, submit this assignment and upload
-your file. If you do not have the right filename, you will receive ZERO points
+Submitting your work
+====================
+
+Due at 02:00 pm, Friday September 16:
+
+`number_props.c++`
+
+If you do not have the right filename, you will receive ZERO points
 for the assignment.
 
 
