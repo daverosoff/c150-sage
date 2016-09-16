@@ -6,6 +6,9 @@ Prerequisites
 
 Before you begin the activity, login to Piazza and answer today's polls.
 
+Instructions
+============
+
 In the `number_props.c++` files, write a C++ program that prompts the user to enter an integer greater than one but less than ten.  Then generate four lines of output:
 
 1. The first line should describe whether the user's input is less than, equal
