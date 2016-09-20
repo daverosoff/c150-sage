@@ -58,20 +58,15 @@ in meters or feet.
 Sample output 1:
 ```
 Enter a temperature in degrees C or degrees F: 210F
+Enter an altitude above sea level in feet: 2500
 Water is gaseous at 210 degrees Fahrenheit at 2500 feet above sea level.
 ```
 
 Sample output 2:
 ```
-Enter an altitude above sea level in feet or meters: 8500m
-Water is gaseous at 93 degrees Celsius at 8500 meters above sea level.
-```
-
-Sample output 3:
-```
 Enter a temperature in degrees C or degrees F: 93C
-Enter an altitude above sea level in feet or meters: 2500ft
-Mixing metric and Imperial? Pick a system and stick with it!
+Enter an altitude above sea level in meters: 8500
+Water is gaseous at 93 degrees Celsius at 8500 meters above sea level.
 ```
 
 Submitting your work
