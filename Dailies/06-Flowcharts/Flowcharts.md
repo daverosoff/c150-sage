@@ -23,7 +23,7 @@ Instructions
 ------------
 
 Reviewing section 3.5 if necessary, and using the free tools at
-(https://www.lucidchart.com/)[Lucidchart] if you like, devise
+[https://www.lucidchart.com/](Lucidchart) if you like, devise
 flowcharts for Programming Exercises 3.1 and 3.2 in Horstmann.
 
 You do not need to write the code for the programs, just the
