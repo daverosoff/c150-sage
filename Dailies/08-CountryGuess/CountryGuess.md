@@ -85,6 +85,16 @@ When you have finished `country_guess_compound.c++`, make a copy of it called
 `country_guess_nested.c++`. Rewrite the code in the latter file so that it only
 uses nested `if` statements and avoids all logical operators in the conditions.
 
+It may help to remember the keyboard commands to copy, reorder, and reindent lines.
+
+For Windows:
+
+Duplicate line: <kbd>Ctrl+Shift+D</kbd>
+Move line up/down: <kbd>Ctrl+Shift+Up/Down</kbd>
+Indent/Dedent: <kbd>Ctrl+[</kbd>/<kbd>Ctrl+]</kbd>
+
+For Mac: Check back in a few moments
+
 Submitting your work
 --------------------
 
