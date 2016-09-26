@@ -93,9 +93,12 @@ Duplicate line: <kbd>Ctrl+Shift+D</kbd>
 Move line up/down: <kbd>Ctrl+Shift+Up/Down</kbd>
 Indent/Dedent: <kbd>Ctrl+[</kbd>/<kbd>Ctrl+]</kbd>
 
-For Mac: Check back in a few moments
+For Mac:
+Duplicate line: <kbd>Cmd+Shift+D</kbd>
+Move line up/down: <kbd>Cmd+Ctrl+Up/Down</kbd>
+Indent/Dedent: <kbd>Cmd+[</kbd>/<kbd>Cmd+]</kbd>
 
-Submitting your work
+Submitting your work:
 --------------------
 
 The following files are due at 2:00pm on Tuesday, September 27:
