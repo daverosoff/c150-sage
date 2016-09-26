@@ -53,9 +53,10 @@ Here is a table you can use to fill in the 8 different values if you are too
 lazy to think of the answers yourself (you can use whatever answers you want,
 but the questions have to be right).
 
-| | Africa | Americas | Eurasia | Oceania |
-| East | Kenya | Brazil | Japan | Fiji |
-| West | Ghana | Chile | Portugal | New Guinea |
+|      | Africa | Americas | Eurasia  | Oceania    |
+|------|--------|----------|----------|------------|
+| East | Kenya  | Brazil   | Japan    | Fiji       |
+| West | Ghana  | Chile    | Portugal | New Guinea |
 
 ### Compound conditions only: no nesting
 
