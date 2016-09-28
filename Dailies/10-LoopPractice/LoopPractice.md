@@ -10,7 +10,7 @@ from Chapter 4.
 Instructions
 ------------
 
-Call your file <code>while_for_practice.cpp</code> (you don't need to put your name in the filename). Write a program with loops that compute
+Call your file <code>while_for_practice.c++</code> (you don't need to put your name in the filename). Write a program with loops that compute
 
 1. The sum of all even numbers between 88 and 202, inclusive.
 2. The sum of all square numbers between 15 and 340, inclusive.
