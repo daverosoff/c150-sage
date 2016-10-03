@@ -81,10 +81,12 @@ Sample session 1:
     *****  *****
 
 Sample session 2:
+
     Enter a positive integer height: 1
     * *
 
 Sample session 3:
+
     Enter a position integer height: 0
     Bad input! Terminating.
 
