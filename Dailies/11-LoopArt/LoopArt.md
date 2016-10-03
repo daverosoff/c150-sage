@@ -6,7 +6,7 @@ Due: Wednesday, October 5, at 2:00 pm
 For this assignment, you will write three C++ programs. Each program should be
 in a separate file. The file for the first question should be named
 `reverse.c++`, the file for the second question should be named `boxes.c++`,
-and the file for the third question should be named `mario-hills.c++`.
+and the file for the third question should be named `mario_hills.c++`.
 
 Each program that you write should have some comment lines at the top that
 show the assignment and question number, your name and the date the program
@@ -14,7 +14,7 @@ was written, and a description of the program. Here's an example. Your comment
 lines need to look very similar to these, except (obviously) for your name.
 
     // CSC-150 Daily assignment 10, question 3
-    // File: mario-hills.c++
+    // File: mario_hills.c++
     // Dave Rosoff, 2016-09-27
     // P4.23 in Horstmann. This program prints Mario hills of various sizes.
 
