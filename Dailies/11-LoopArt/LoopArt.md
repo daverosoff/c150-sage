@@ -66,7 +66,7 @@ Remember to `return 1` for erroneous user input.
 
 #### QUESTION 3
 
-Do programming exercise 4.23 on page 182 of Horstmann. The instructions are:
+Draw some Mario hills (see below for examples).
 
 *Write a program that reads an integer and displays, using asterisks, Mario hills
 of the given height, separated by two blank spaces.*
