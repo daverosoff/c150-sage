@@ -93,6 +93,12 @@ Sample session 3:
 Submitting your work
 --------------------
 
+Files due at 2:00 on Wednesday, October 5:
+
+  * reverse.c++
+  * boxes.c++
+  * mario_hills.c++
+
 Before you submit, ask yourself...
 
 1. Do I have a comment block at the very beginning of my files?
