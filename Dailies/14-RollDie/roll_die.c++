@@ -25,7 +25,8 @@ int main()
     }
     else
     {
-        cout << "Looks good... get the instructor to look over your work."; << endl;
+        // cout << "Looks good... get the instructor to look over your work."; << endl; // ERROR
+        cout << "Looks good... get the instructor to look over your work." << endl; 
     }
     return 0;
 }
