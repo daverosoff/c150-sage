@@ -18,7 +18,7 @@ Instructions
 2. (Bonus) Modify the program again so that, instead of immediately prompting
    the user for a message, it presents the user with a menu with two options:
 
-        &lt;&lt;&lt;&lt; OPTIONS &gt;&gt;&gt;&gt;
+        <<<< OPTIONS >>>>
         1: Encode a message and write it in `secret.txt`
         2: Decode the message in `secret.txt`
         Please enter an option (1-2):
@@ -36,8 +36,8 @@ Important NOTE
 --------------
 
 To read a message that includes white space (blank characters) you will need
-to use `getline` (as is already done in `encode.c++`.) If you use `cin
-&gt;&gt;` to get the menu option input, you will need to to call
+to use `getline` (as is already done in `encode.c++`.) If you use `cin >>` 
+to get the menu option input, you will need to to call
 `cin.ignore()` before calling `getline(cin, user_input)`. I have found a
 useful summary and discussion of these issues [august][here] as well as in our
 textbook.
